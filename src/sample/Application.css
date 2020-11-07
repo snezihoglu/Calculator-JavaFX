@@ -1,0 +1,55 @@
+.root{
+    -fx-background-color: #E8E8E8;
+}
+.button{
+    -fx-background-color: #86C1B9;
+    -fx-font-size: 25px;
+    -fx-pref-width: 95px;
+    -fx-pref-height: 95px;
+    -fx-border-color: #E8E8E8;
+
+}
+.button:hover{
+    -fx-background-color: #75B0A8;
+
+}
+.button:pressed{
+    -fx-background-color: #64A097;
+}
+.button-orange{
+    -fx-background-color: #F7CA88;
+}
+.button-orange:hover{
+    -fx-background-color: #E6B977;
+}
+.button-orange:pressed{
+    -fx-background-color: #D5A866;
+}
+.button-red{
+    -fx-background-color: #DE7975;
+    -fx-font-size: 35px;
+    -fx-text-fill: #E8E8E8;
+}
+.button-red:hover{
+    -fx-background-color: #CD6864;
+}
+.button-red:pressed{
+    -fx-background-color: #BC5753;
+}
+.text-field {
+
+    -fx-pref-width: 470px;
+    -fx-pref-height: 100px;
+    -fx-font-size: 40px;
+    -fx-padding: 5px;
+    -fx-text-fill: #000000;
+    -fx-opacity: 0.8;
+    -fx-background-color: #E8E8E8;
+    -fx-background-insets: 0;
+}
+.text-field-hint {
+    -fx-background-color: #D8D8D8;
+    -fx-pref-height: 35px;
+    -fx-font-size: 15px;
+    -fx-padding: 5px;
+}
