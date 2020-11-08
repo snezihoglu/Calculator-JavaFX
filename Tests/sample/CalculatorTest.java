@@ -14,37 +14,6 @@ public class CalculatorTest {
     @Rule
     public ExpectedException exception = ExpectedException.none();
 
-    //@Test
-    //public void add() {
-    //}
-
-    //@Test
-    //public void subtract() {
-    //}
-
-    //@Test
-    //public void multiply() {
-    //}
-
-    //@Test
-    //public void divide() {
-    //}
-
-    //@Test
-    //public void power() {
-    //}
-
-    //@Test
-    //public void powerOf10() {
-    //}
-
-    //@Test
-    //public void sqrt() {
-    //}
-
-    //@Test
-    //public void cbrt() {
-    //}
     @Test
     public void addition() {
         assertEquals(20, Calculator.add(5, 15), 0.0f);
